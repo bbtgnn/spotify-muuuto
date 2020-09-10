@@ -1,6 +1,8 @@
 var strings = [
   "Advertisement · ",
-  "Spotify · "
+  "Spotify · ",
+  "Pubblicita · ",
+  "Pubblicità · "
 ]
 
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
